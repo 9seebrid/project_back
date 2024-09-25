@@ -20,7 +20,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.get('/', (req, res) => {
-  res.send('Hello World! please'); // get 요청 시 Hello World! 출력
+  res.send('Hello World! linode back completed!!'); // get 요청 시 Hello World! 출력
 }); // get 요청 시 실행할 함수
 
 app.use(require('./routes/getRoutes'));
